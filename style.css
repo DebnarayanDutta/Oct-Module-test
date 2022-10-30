@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+
+    position: relative;
+    width: 100%;
+    height: 2688px;
+    background-color: #E5E5E5;
+}
+
+.main-aboutdiv {
+
+    position: relative;
+    width: 100%;
+    height: 1844px;
+    background-color: #E5E5E5;
+}
+
+nav {
+    width: 1120px;
+    height: 35px;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo {
+    width: 67.46px;
+    height: 23px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+
+
+}
+
+.navbarmenu {
+    position: absolute;
+    right: 0;
+
+}
+
+.work {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 334.91px;
+    top: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.about {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 244.56px;
+    top: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.Playground {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 148.29px;
+    top: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.contact {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#intro {
+    position: absolute;
+    top: 360px;
+    left: 160px;
+    width: 360px;
+    height: 129px;
+}
+
+#intro h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#aboutme {
+    position: absolute;
+    top: 424px;
+    right: 224px;
+    width: 580px;
+    height: 111px;
+}
+
+#aboutme p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+
+#arrow {
+    position: absolute;
+    top: 605.18px;
+    left: 160px;
+    height: 38.04px;
+    width: 33.61px;
+}
+
+#project-title1 {
+    position: absolute;
+    top: 757px;
+    left: 160px;
+    height: 19px;
+    width: 326.21px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#about-project1 {
+    position: absolute;
+    top: 801px;
+    left: 160px;
+    height: 169px;
+    width: 356px;
+}
+
+#about-project1 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.inside-text1 {
+    position: absolute;
+    top: 101px;
+    width: 315.34px;
+    height: 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+
+#More1 {
+    position: absolute;
+    top: 1104px;
+    left: 160px;
+    height: 20px;
+    width: 326.21px;
+}
+
+#More1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+#project1-img {
+    width: 640px;
+    height: 364.68px;
+    position: absolute;
+    right: 160px;
+    top: 757px;
+
+}
+
+#hr1 {
+    position: relative;
+    top: 1230px;
+    left: 160px;
+    width: 1115.06px;
+}
+
+#project-title2 {
+    position: absolute;
+    top: 1344px;
+    left: 160px;
+    height: 19px;
+    width: 326.21px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#about-project2 {
+    position: absolute;
+    top: 1388px;
+    left: 160px;
+    height: 169px;
+    width: 356px;
+}
+
+#about-project2 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#More2 {
+    position: absolute;
+    top: 1691px;
+    left: 160px;
+    height: 20px;
+    width: 326.21px;
+}
+
+#More2 h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+
+}
+
+#project2-img {
+    width: 640px;
+    height: 364.68px;
+    position: absolute;
+    right: 160px;
+    top: 1344px;
+}
+
+#hr2 {
+    position: relative;
+    top: 1817px;
+    left: 160px;
+    width: 1115.06px;
+}
+
+#project-title3 {
+    position: absolute;
+    top: 1931px;
+    left: 160px;
+    height: 19px;
+    width: 326.21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#about-project3 {
+    position: absolute;
+    top: 1975px;
+    left: 160px;
+    height: 169px;
+    width: 356px;
+}
+
+#about-project3 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#More3 {
+    position: absolute;
+    top: 2278px;
+    left: 160px;
+    height: 20px;
+    width: 326.21px;
+}
+
+#More3 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #606060;
+}
+
+#project3-img {
+    width: 640px;
+    height: 364.68px;
+    position: absolute;
+    right: 160px;
+    top: 1931px;
+}
+
+#hr3 {
+    position: relative;
+    top: 2404px;
+    left: 160px;
+    width: 1115.06px;
+}
+
+.bottom-naming {
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+    width: 270.82px;
+    height: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #2429AF;
+}
+
+.Artstation {
+    position: absolute;
+    bottom: 70px;
+    right: 391.14px;
+    width: 98.21px;
+    height: 20px;
+}
+#Artstation-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.Linkedin {
+    position: absolute;
+    bottom: 70px;
+    right: 261.19px;
+    width: 98.21px;
+    height: 20px;
+}
+#Linkedin-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+.Twitter {
+    position: absolute;
+    bottom: 70px;
+    right: 160px;
+    width: 69.44px;
+    height: 20px;
+}
+#Twitter-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#about-intro {
+    position: absolute;
+    left: 160px;
+    top: 360px;
+    width: 580px;
+    height: 199px;
+
+}
+
+#about-intro h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#aboutMyself {
+    width: 575px;
+    height: 359px;
+    position: absolute;
+    top: 591px;
+    left: 160px;
+}
+
+#aboutMyself p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    color: #606060;
+
+}
+
+#aboutimg {
+    width: 421px;
+    height: 590px;
+    position: absolute;
+    top: 360px;
+    right: 160px;
+}
+
+#main-software {
+    width: 124px;
+    height: 20px;
+    position: absolute;
+    top: 1089px;
+    left: 160px;
+}
+
+#main-software p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717
+}
+
+#companies {
+    width: 436px;
+    height: 54px;
+    position: absolute;
+    top: 1086px;
+    left: 347px;
+}
+
+#companies p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#more-companies {
+    width: 213px;
+    height: 22px;
+    position: absolute;
+    top: 1164px;
+    left: 348px;
+}
+
+#more-companies p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#main-skills {
+    width: 124px;
+    height: 20px;
+    position: absolute;
+    top: 1261px;
+    left: 160px;
+}
+
+#main-skills p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717
+}
+
+#skills {
+    width: 401px;
+    height: 44px;
+    position: absolute;
+    top: 1258px;
+    left: 347px;
+}
+
+#skills p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#abouthr {
+    width: 1120px;
+    position: relative;
+    top: 1436px;
+    left: 160px;
+}
+
+#nextarrow {
+    width: 347px;
+    height: 71px;
+    position: absolute;
+    bottom: 264px;
+    left: 160px;
+}
+
+#nextarrow p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#nextpage-arrow{
+    position: absolute;
+    top: 1555px;
+    left: 419px;
+    width: 21px;
+    height: 24px;
+}
+
+#email {
+    width: 372px;
+    height: 37px;
+    position: absolute;
+    bottom: 291px;
+    right: 239px;
+}
+
+#email h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
+
+#viewresume {
+    width: 110px;
+    height: 22px;
+    position: absolute;
+    bottom: 242px;
+    right: 501px;
+}
+
+#viewresume p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #181717
+}
